@@ -1,0 +1,42 @@
+# jekyll-gh-pages.yml
+
+# Site settings
+title: "socAIti"
+description: "A platform that leverages AI for social interactions."
+url: "https://yourusername.github.io/socAIti" # Replace with your GitHub Pages URL
+baseurl: "" # Leave empty if not using a subdirectory
+
+# Author information
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change this to any other theme you prefer
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files and directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - jekyll-gh-pages.yml
+
+# Permalinks
+permalink: pretty
+
+# Social media links
+social:
+  twitter: "your_twitter_handle"
+  github: "your_github_username"
+  linkedin: "your_linkedin_profile"
+
+# Custom collections (if needed)
+collections:
+  my_collection:
+    output: true
